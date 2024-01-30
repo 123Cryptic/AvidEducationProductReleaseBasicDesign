@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Raleway&family=Syne&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+body {
+  background-color: black;
+  color: white;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.05s 0 ease;
+  font-weight: 00;
+  font-family: "Poppins", sans-serif;
+  height: 150vh;
+  position: relative;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.Launching {
+  background: -webkit-linear-gradient(#6495ed, #1f75fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.launching-soon {
+  position: relative;
+  top: 40vh;
+  left: 10%;
+  line-height: 1.25;
+}
+.rocket {
+  width: 250px;
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  animation: rocket 4s linear infinite;
+}
+
+.rocket:hover {
+}
+
+@keyframes rocket {
+  0% {
+    bottom: 0vh;
+    opacity: 0.78;
+  }
+  25% {
+    opacity: 0.82;
+  }
+  50% {
+    opacity: 0.86;
+  }
+  75% {
+    opacity: 0.9;
+  }
+  100% {
+    bottom: 100vh;
+    opacity: 1;
+  }
+}
+
+.motto {
+  font-size: 15px;
+  line-height: 2px;
+}
+
+.date {
+  background: -webkit-linear-gradient(#cbc3e3, #8f00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo {
+  position: absolute;
+  top: 5vh;
+  left: 3vw;
+  width: 20vh;
+  cursor: pointer;
+}
+
+
