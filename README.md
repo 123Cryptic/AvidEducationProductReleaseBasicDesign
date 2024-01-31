@@ -29,7 +29,7 @@ The Avid Education website is licensed under the MIT License. See the [LICENSE](
 
 If you have any questions or comments, please contact us at [avi@example.com](mailto:avi@example.com).
 
-## Acknowledgments
+## Please Read
 Please note that this is the release page and not the final website.
 
 
